@@ -1,10 +1,10 @@
 ﻿# Power App Documentation \- PonyMath
 
-| Property                   | Value                                                          |
-| -------------------------- | -------------------------------------------------------------- |
-| App Name                   | PonyMath                                                       |
-| App Logo                   | <img alt="App Logo" src="resources/applogo.png" width="200" /> |
-| Documentation generated at | Monday, 21 November 2022 1:31 pm                               |
+| Property                   | Value                               |
+| -------------------------- | ----------------------------------- |
+| App Name                   | PonyMath                            |
+| App Logo                   | ![App Logo](resources/appLogo.png)  |
+| Documentation generated at | Saturday, 31 December 2022 10:43 am |
 
 - [Overview](index-PonyMath.md)
 - [App Details](appdetails-PonyMath.md)

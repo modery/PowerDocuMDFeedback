@@ -1,10 +1,10 @@
 ﻿# Power App Documentation \- PonyMath
 
-| Property                   | Value                                                          |
-| -------------------------- | -------------------------------------------------------------- |
-| App Name                   | PonyMath                                                       |
-| App Logo                   | <img alt="App Logo" src="resources/applogo.png" width="200" /> |
-| Documentation generated at | Monday, 21 November 2022 1:31 pm                               |
+| Property                   | Value                               |
+| -------------------------- | ----------------------------------- |
+| App Name                   | PonyMath                            |
+| App Logo                   | ![App Logo](resources/appLogo.png)  |
+| Documentation generated at | Saturday, 31 December 2022 10:43 am |
 
 - [Overview](index-PonyMath.md)
 - [App Details](appdetails-PonyMath.md)
@@ -15,17 +15,21 @@
 
 ## EatScreen
 
+| Property                        | Value        |
+| ------------------------------- | ------------ |
+| ![screen](resources/screen.png) | Type: screen |
+
 ### Design
 
-| Property            | Value                                                                                                               |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Height              | Max(App.Height, App.DesignHeight)                                                                                   |
-| ImagePosition       | ImagePosition.Fit                                                                                                   |
-| LoadingSpinner      | LoadingSpinner.None                                                                                                 |
-| LoadingSpinnerColor | <table border="0"><tr><td>RGBA(56, 96, 178, 1)</td></tr><tr><td style="background-color:#3860B2"></td></tr></table> |
-| Orientation         | If(EatScreen.Width \< EatScreen.Height, Layout.Vertical, Layout.Horizontal)                                         |
-| Size                | 1 + CountRows(App.SizeBreakpoints) \- CountIf(App.SizeBreakpoints, Value \>\= EatScreen.Width)                      |
-| Width               | Max(App.Width, App.DesignWidth)                                                                                     |
+| Property            | Value                                                                                                                                                                                                                                                                                                                       |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Height              | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">Max(App.Height, App.DesignHeight)<td style="background-color:#ffcccc; width:50%;">Max(App.Height, App.MinScreenHeight)</td></tr></table>                                                                                                             |
+| ImagePosition       | ImagePosition.Fit                                                                                                                                                                                                                                                                                                           |
+| LoadingSpinner      | LoadingSpinner.None                                                                                                                                                                                                                                                                                                         |
+| LoadingSpinnerColor | <table border="0"><tr><td>RGBA(56, 96, 178, 1)</td></tr><tr><td style="background-color:#3860B2"></td></tr></table>                                                                                                                                                                                                         |
+| Orientation         | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">If(EatScreen.Width < EatScreen.Height, Layout.Vertical, Layout.Horizontal)<td style="background-color:#ffcccc; width:50%;">If(Self.Width < Self.Height, Layout.Vertical, Layout.Horizontal)</td></tr></table>                                        |
+| Size                | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">1 + CountRows(App.SizeBreakpoints) - CountIf(App.SizeBreakpoints, Value >= EatScreen.Width)<td style="background-color:#ffcccc; width:50%;">1 + CountRows(App.SizeBreakpoints) - CountIf(App.SizeBreakpoints, Value >= Self.Width)</td></tr></table> |
+| Width               | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">Max(App.Width, App.DesignWidth)<td style="background-color:#ffcccc; width:50%;">Max(App.Width, App.MinScreenWidth)</td></tr></table>                                                                                                                 |
 
 ### Color Properties
 
@@ -40,46 +44,50 @@
 | Child Control | Image2  |
 | Child Control | Button3 |
 
-### Button3
+## Button3
+
+| Property                        | Value        |
+| ------------------------------- | ------------ |
+| ![button](resources/button.png) | Type: button |
 
 ### Behavior
 
-| Property | Value                 |
-| -------- | --------------------- |
-| OnSelect | Navigate(StartScreen) |
+| Property | Value                                                                                                                                                           |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OnSelect | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">Navigate(StartScreen)<td style="background-color:#ffcccc; width:50%;"></td></tr></table> |
 
 ### Data
 
-| Property        | Value        |
-| --------------- | ------------ |
-| ContentLanguage | ""           |
-| Text            | "Play Again" |
+| Property        | Value                                                                                                                                                          |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ContentLanguage | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">""<td style="background-color:#ffcccc; width:50%;"></td></tr></table>                   |
+| Text            | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">"Play Again"<td style="background-color:#ffcccc; width:50%;">"Button"</td></tr></table> |
 
 ### Design
 
-| Property               | Value                |
-| ---------------------- | -------------------- |
-| Align                  | Align.Center         |
-| BorderStyle            | BorderStyle.Solid    |
-| BorderThickness        | 2                    |
-| DisplayMode            | DisplayMode.Edit     |
-| FocusedBorderThickness | 4                    |
-| Font                   | Font.'Open Sans'     |
-| FontWeight             | FontWeight.Semibold  |
-| Height                 | 70                   |
-| Italic                 | false                |
-| RadiusBottomLeft       | 10                   |
-| RadiusBottomRight      | 10                   |
-| RadiusTopLeft          | 10                   |
-| RadiusTopRight         | 10                   |
-| Size                   | 24                   |
-| Strikethrough          | false                |
-| Underline              | false                |
-| VerticalAlign          | VerticalAlign.Middle |
-| Width                  | 280                  |
-| X                      | 840                  |
-| Y                      | 537                  |
-| ZIndex                 | 2                    |
+| Property               | Value                                                                                                                                            |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Align                  | Align.Center                                                                                                                                     |
+| BorderStyle            | BorderStyle.Solid                                                                                                                                |
+| BorderThickness        | 2                                                                                                                                                |
+| DisplayMode            | DisplayMode.Edit                                                                                                                                 |
+| FocusedBorderThickness | 4                                                                                                                                                |
+| Font                   | Font.'Open Sans'                                                                                                                                 |
+| FontWeight             | FontWeight.Semibold                                                                                                                              |
+| Height                 | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">70<td style="background-color:#ffcccc; width:50%;">40</td></tr></table>   |
+| Italic                 | false                                                                                                                                            |
+| RadiusBottomLeft       | 10                                                                                                                                               |
+| RadiusBottomRight      | 10                                                                                                                                               |
+| RadiusTopLeft          | 10                                                                                                                                               |
+| RadiusTopRight         | 10                                                                                                                                               |
+| Size                   | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">24<td style="background-color:#ffcccc; width:50%;">15</td></tr></table>   |
+| Strikethrough          | false                                                                                                                                            |
+| Underline              | false                                                                                                                                            |
+| VerticalAlign          | VerticalAlign.Middle                                                                                                                             |
+| Width                  | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">280<td style="background-color:#ffcccc; width:50%;">160</td></tr></table> |
+| X                      | 840                                                                                                                                              |
+| Y                      | 537                                                                                                                                              |
+| ZIndex                 | 2                                                                                                                                                |
 
 ### Color Properties
 
@@ -105,66 +113,43 @@
 | -------------- | --------- |
 | Parent Control | EatScreen |
 
-### EatScreen
+## Image2
 
-### Design
-
-| Property            | Value                                                                                                               |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Height              | Max(App.Height, App.DesignHeight)                                                                                   |
-| ImagePosition       | ImagePosition.Fit                                                                                                   |
-| LoadingSpinner      | LoadingSpinner.None                                                                                                 |
-| LoadingSpinnerColor | <table border="0"><tr><td>RGBA(56, 96, 178, 1)</td></tr><tr><td style="background-color:#3860B2"></td></tr></table> |
-| Orientation         | If(EatScreen.Width \< EatScreen.Height, Layout.Vertical, Layout.Horizontal)                                         |
-| Size                | 1 + CountRows(App.SizeBreakpoints) \- CountIf(App.SizeBreakpoints, Value \>\= EatScreen.Width)                      |
-| Width               | Max(App.Width, App.DesignWidth)                                                                                     |
-
-### Color Properties
-
-| Property | Value                                                                                                                   |
-| -------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Fill     | <table border="0"><tr><td>RGBA(245, 255, 157, 0.4)</td></tr><tr><td style="background-color:#F5FF9D"></td></tr></table> |
-
-### Child & Parent Controls
-
-| Property      | Value   |
-| ------------- | ------- |
-| Child Control | Image2  |
-| Child Control | Button3 |
-
-### Image2
+| Property                      | Value       |
+| ----------------------------- | ----------- |
+| ![image](resources/image.png) | Type: image |
 
 ### Data
 
-| Property        | Value      |
-| --------------- | ---------- |
-| ContentLanguage | ""         |
-| Image           | SuccessPic |
+| Property        | Value                                                                                                                                                           |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ContentLanguage | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">""<td style="background-color:#ffcccc; width:50%;"></td></tr></table>                    |
+| Image           | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">SuccessPic<td style="background-color:#ffcccc; width:50%;">SampleImage</td></tr></table> |
 
 ### Design
 
-| Property               | Value              |
-| ---------------------- | ------------------ |
-| BorderStyle            | BorderStyle.Solid  |
-| BorderThickness        | 0                  |
-| DisplayMode            | DisplayMode.Edit   |
-| FlipHorizontal         | true               |
-| FocusedBorderThickness | 2                  |
-| Height                 | 639                |
-| ImagePosition          | ImagePosition.Fit  |
-| ImageRotation          | ImageRotation.None |
-| PaddingBottom          | 0                  |
-| PaddingLeft            | 0                  |
-| PaddingRight           | 0                  |
-| PaddingTop             | 0                  |
-| RadiusBottomLeft       | 0                  |
-| RadiusBottomRight      | 0                  |
-| RadiusTopLeft          | 0                  |
-| RadiusTopRight         | 0                  |
-| Width                  | 928                |
-| X                      | 9                  |
-| Y                      | 1                  |
-| ZIndex                 | 1                  |
+| Property               | Value                                                                                                                                            |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| BorderStyle            | BorderStyle.Solid                                                                                                                                |
+| BorderThickness        | 0                                                                                                                                                |
+| DisplayMode            | DisplayMode.Edit                                                                                                                                 |
+| FlipHorizontal         | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">true<td style="background-color:#ffcccc; width:50%;"></td></tr></table>   |
+| FocusedBorderThickness | 2                                                                                                                                                |
+| Height                 | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">639<td style="background-color:#ffcccc; width:50%;">100</td></tr></table> |
+| ImagePosition          | ImagePosition.Fit                                                                                                                                |
+| ImageRotation          | ImageRotation.None                                                                                                                               |
+| PaddingBottom          | 0                                                                                                                                                |
+| PaddingLeft            | 0                                                                                                                                                |
+| PaddingRight           | 0                                                                                                                                                |
+| PaddingTop             | 0                                                                                                                                                |
+| RadiusBottomLeft       | 0                                                                                                                                                |
+| RadiusBottomRight      | 0                                                                                                                                                |
+| RadiusTopLeft          | 0                                                                                                                                                |
+| RadiusTopRight         | 0                                                                                                                                                |
+| Width                  | <table border="0"><tr><td style="background-color:#ccffcc; width:50%;">928<td style="background-color:#ffcccc; width:50%;">100</td></tr></table> |
+| X                      | 9                                                                                                                                                |
+| Y                      | 1                                                                                                                                                |
+| ZIndex                 | 1                                                                                                                                                |
 
 ### Color Properties
 

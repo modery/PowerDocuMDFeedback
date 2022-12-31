@@ -1,10 +1,10 @@
 ﻿# Power App Documentation \- PonyMath
 
-| Property                   | Value                                                          |
-| -------------------------- | -------------------------------------------------------------- |
-| App Name                   | PonyMath                                                       |
-| App Logo                   | <img alt="App Logo" src="resources/applogo.png" width="200" /> |
-| Documentation generated at | Monday, 21 November 2022 1:34 pm                               |
+| Property                   | Value                               |
+| -------------------------- | ----------------------------------- |
+| App Name                   | PonyMath                            |
+| App Logo                   | ![App Logo](resources/appLogo.png)  |
+| Documentation generated at | Saturday, 31 December 2022 10:43 am |
 
 - [Overview](index-PonyMath.md)
 - [App Details](appdetails-PonyMath.md)
@@ -21,23 +21,74 @@ A total of 57 Controls are located in the app.
 
 ### [Screen: CoinScreen](screen-CoinScreen-PonyMath.md)
 
-<table width="100%" style="overflow:hidden;"><tr><td><img src="resources\screen.svg" alt="screen" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#coinscreen">CoinScreen [screen]</a></td><tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#button3_1">Button3_1 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#button4">Button4 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\gallery.svg" alt="gallery" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#gallery1">Gallery1 [gallery]</a></td><tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\galleryTemplate.svg" alt="galleryTemplate" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#gallerytemplate1">galleryTemplate1 [galleryTemplate]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#image1">Image1 [image]</a></td><tr></table></td></tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#happyapplejack">HappyAppleJack [image]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#hiddengeneratebutton">HiddenGenerateButton [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#image5">Image5 [image]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#image5_1">Image5_1 [image]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#image5_2">Image5_2 [image]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#image5_3">Image5_3 [image]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#image6">Image6 [image]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\label.svg" alt="label" width="16" /></td><td><a href="screen-CoinScreen-PonyMath.md#label1">Label1 [label]</a></td><tr></table></td></tr></table>
+- [![screen](resources/screen.png) CoinScreen](screen-CoinScreen-PonyMath.md)
+- - [![button](resources/button.png) Button3\_1](screen-CoinScreen-PonyMath.md)
+- - [![button](resources/button.png) Button4](screen-CoinScreen-PonyMath.md)
+- - [![gallery](resources/gallery.png) Gallery1](screen-CoinScreen-PonyMath.md)
+  - - [![galleryTemplate](resources/galleryTemplate.png) galleryTemplate1](screen-CoinScreen-PonyMath.md)
+  - - [![image](resources/image.png) Image1](screen-CoinScreen-PonyMath.md)
+- - [![image](resources/image.png) HappyAppleJack](screen-CoinScreen-PonyMath.md)
+- - [![button](resources/button.png) HiddenGenerateButton](screen-CoinScreen-PonyMath.md)
+- - [![image](resources/image.png) Image5](screen-CoinScreen-PonyMath.md)
+- - [![image](resources/image.png) Image5\_1](screen-CoinScreen-PonyMath.md)
+- - [![image](resources/image.png) Image5\_2](screen-CoinScreen-PonyMath.md)
+- - [![image](resources/image.png) Image5\_3](screen-CoinScreen-PonyMath.md)
+- - [![image](resources/image.png) Image6](screen-CoinScreen-PonyMath.md)
+- - [![label](resources/label.png) Label1](screen-CoinScreen-PonyMath.md)
 
 ### [Screen: EatScreen](screen-EatScreen-PonyMath.md)
 
-<table width="100%" style="overflow:hidden;"><tr><td><img src="resources\screen.svg" alt="screen" width="16" /></td><td><a href="screen-EatScreen-PonyMath.md#eatscreen">EatScreen [screen]</a></td><tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-EatScreen-PonyMath.md#button3">Button3 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-EatScreen-PonyMath.md#image2">Image2 [image]</a></td><tr></table></td></tr></table>
+- [![screen](resources/screen.png) EatScreen](screen-EatScreen-PonyMath.md)
+- - [![button](resources/button.png) Button3](screen-EatScreen-PonyMath.md)
+- - [![image](resources/image.png) Image2](screen-EatScreen-PonyMath.md)
 
 ### [Screen: MathScreen](screen-MathScreen-PonyMath.md)
 
-<table width="100%" style="overflow:hidden;"><tr><td><img src="resources\screen.svg" alt="screen" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#mathscreen">MathScreen [screen]</a></td><tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#button1">Button1 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#button1_1">Button1_1 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#button1_2">Button1_2 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#button1_3">Button1_3 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#button1_4">Button1_4 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#button1_5">Button1_5 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#button1_6">Button1_6 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#button1_7">Button1_7 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#button1_8">Button1_8 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\circle.svg" alt="circle" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#circle1">Circle1 [circle]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\circle.svg" alt="circle" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#circle1_1">Circle1_1 [circle]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\circle.svg" alt="circle" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#circle1_2">Circle1_2 [circle]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#hiddengeneratorbutton">HiddenGeneratorButton [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#hiddenvalidationbutton">HiddenValidationButton [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#image3">Image3 [image]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\label.svg" alt="label" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#number1">Number1 [label]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\label.svg" alt="label" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#number2">Number2 [label]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\label.svg" alt="label" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#number3">Number3 [label]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-MathScreen-PonyMath.md#pinkiepie">PinkiePie [image]</a></td><tr></table></td></tr></table>
+- [![screen](resources/screen.png) MathScreen](screen-MathScreen-PonyMath.md)
+- - [![button](resources/button.png) Button1](screen-MathScreen-PonyMath.md)
+- - [![button](resources/button.png) Button1\_1](screen-MathScreen-PonyMath.md)
+- - [![button](resources/button.png) Button1\_2](screen-MathScreen-PonyMath.md)
+- - [![button](resources/button.png) Button1\_3](screen-MathScreen-PonyMath.md)
+- - [![button](resources/button.png) Button1\_4](screen-MathScreen-PonyMath.md)
+- - [![button](resources/button.png) Button1\_5](screen-MathScreen-PonyMath.md)
+- - [![button](resources/button.png) Button1\_6](screen-MathScreen-PonyMath.md)
+- - [![button](resources/button.png) Button1\_7](screen-MathScreen-PonyMath.md)
+- - [![button](resources/button.png) Button1\_8](screen-MathScreen-PonyMath.md)
+- - [![circle](resources/circle.png) Circle1](screen-MathScreen-PonyMath.md)
+- - [![circle](resources/circle.png) Circle1\_1](screen-MathScreen-PonyMath.md)
+- - [![circle](resources/circle.png) Circle1\_2](screen-MathScreen-PonyMath.md)
+- - [![button](resources/button.png) HiddenGeneratorButton](screen-MathScreen-PonyMath.md)
+- - [![button](resources/button.png) HiddenValidationButton](screen-MathScreen-PonyMath.md)
+- - [![image](resources/image.png) Image3](screen-MathScreen-PonyMath.md)
+- - [![label](resources/label.png) Number1](screen-MathScreen-PonyMath.md)
+- - [![label](resources/label.png) Number2](screen-MathScreen-PonyMath.md)
+- - [![label](resources/label.png) Number3](screen-MathScreen-PonyMath.md)
+- - [![image](resources/image.png) PinkiePie](screen-MathScreen-PonyMath.md)
 
 ### [Screen: StartScreen](screen-StartScreen-PonyMath.md)
 
-<table width="100%" style="overflow:hidden;"><tr><td><img src="resources\screen.svg" alt="screen" width="16" /></td><td><a href="screen-StartScreen-PonyMath.md#startscreen">StartScreen [screen]</a></td><tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-StartScreen-PonyMath.md#image4">Image4 [image]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-StartScreen-PonyMath.md#image4_1">Image4_1 [image]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-StartScreen-PonyMath.md#image4_2">Image4_2 [image]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-StartScreen-PonyMath.md#image7">Image7 [image]</a></td><tr></table></td></tr></table>
+- [![screen](resources/screen.png) StartScreen](screen-StartScreen-PonyMath.md)
+- - [![image](resources/image.png) Image4](screen-StartScreen-PonyMath.md)
+- - [![image](resources/image.png) Image4\_1](screen-StartScreen-PonyMath.md)
+- - [![image](resources/image.png) Image4\_2](screen-StartScreen-PonyMath.md)
+- - [![image](resources/image.png) Image7](screen-StartScreen-PonyMath.md)
 
 ### [Screen: TimesMathScreen](screen-TimesMathScreen-PonyMath.md)
 
-<table width="100%" style="overflow:hidden;"><tr><td><img src="resources\screen.svg" alt="screen" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#timesmathscreen">TimesMathScreen [screen]</a></td><tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\listbox.svg" alt="listbox" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#answerlist">AnswerList [listbox]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#button1_9">Button1_9 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\circle.svg" alt="circle" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#circle1_3">Circle1_3 [circle]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\circle.svg" alt="circle" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#circle1_4">Circle1_4 [circle]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\circle.svg" alt="circle" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#circle1_5">Circle1_5 [circle]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#hiddengeneratorbutton_1">HiddenGeneratorButton_1 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\button.svg" alt="button" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#hiddenvalidationbutton_1">HiddenValidationButton_1 [button]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#image3_1">Image3_1 [image]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\label.svg" alt="label" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#label2">Label2 [label]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\label.svg" alt="label" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#number1_1">Number1_1 [label]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\label.svg" alt="label" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#number2_1">Number2_1 [label]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\label.svg" alt="label" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#number3_1">Number3_1 [label]</a></td><tr></table></td></tr><tr><td></td><td><table width="100%" style="overflow:hidden;"><tr><td><img src="resources\image.svg" alt="image" width="16" /></td><td><a href="screen-TimesMathScreen-PonyMath.md#pinkiepie_1">PinkiePie_1 [image]</a></td><tr></table></td></tr></table>
+- [![screen](resources/screen.png) TimesMathScreen](screen-TimesMathScreen-PonyMath.md)
+- - [![listbox](resources/listbox.png) AnswerList](screen-TimesMathScreen-PonyMath.md)
+- - [![button](resources/button.png) Button1\_9](screen-TimesMathScreen-PonyMath.md)
+- - [![circle](resources/circle.png) Circle1\_3](screen-TimesMathScreen-PonyMath.md)
+- - [![circle](resources/circle.png) Circle1\_4](screen-TimesMathScreen-PonyMath.md)
+- - [![circle](resources/circle.png) Circle1\_5](screen-TimesMathScreen-PonyMath.md)
+- - [![button](resources/button.png) HiddenGeneratorButton\_1](screen-TimesMathScreen-PonyMath.md)
+- - [![button](resources/button.png) HiddenValidationButton\_1](screen-TimesMathScreen-PonyMath.md)
+- - [![image](resources/image.png) Image3\_1](screen-TimesMathScreen-PonyMath.md)
+- - [![label](resources/label.png) Label2](screen-TimesMathScreen-PonyMath.md)
+- - [![label](resources/label.png) Number1\_1](screen-TimesMathScreen-PonyMath.md)
+- - [![label](resources/label.png) Number2\_1](screen-TimesMathScreen-PonyMath.md)
+- - [![label](resources/label.png) Number3\_1](screen-TimesMathScreen-PonyMath.md)
+- - [![image](resources/image.png) PinkiePie\_1](screen-TimesMathScreen-PonyMath.md)
 
 ## Screen Navigation
 
